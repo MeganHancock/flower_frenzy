@@ -79,7 +79,7 @@ function buyAutoUpgrade(automaticUpgradeMultiplier) {
     let foundUpgrade = automaticUpgrades.find(automaticUpgrade => automaticUpgradeMultiplier == automaticUpgrade.initialPrice)
     if (flowers >= foundUpgrade.cost) {
         extraAutoClickPower += automaticUpgradeMultiplier
-        flowers -= automaticUpgradeMultiplier
+        flowers -= foundUpgrade.cost
         drawAutoUpgradeStats(automaticUpgradeMultiplier)
         foundUpgrade.cost++
     }
