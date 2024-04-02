@@ -14,6 +14,7 @@ body {
     background-size: fill;
     background-position: cover;
     user-select: none;
+    max-height: 100vh;
 }
 
 .fancy-font {
