@@ -8,15 +8,19 @@
     --drop-shadow: black;
 }
 
+html {
+    max-height: 100vh;
+    ;
+}
 
 body {
     background-image: url(assets/bg.jpg);
     background-size: fill;
     background-position: cover;
-    background-size: cover;
+    /* background-size: cover; */
     background-repeat: no-repeat;
     user-select: none;
-    max-height: 100vh;
+    /* max-height: 100vh; */
 }
 
 .fancy-font {
@@ -24,7 +28,7 @@ body {
 }
 
 .header-box {
-    border: 10px solid var(--box-border) !important;
+    border: 1vh solid var(--box-border) !important;
     background-color: var(--box-bg);
     /* max-width: fit-content; */
     color: var(--header-font)
@@ -38,7 +42,7 @@ body {
 }
 
 .flower-box {
-    border: 10px solid var(--box-border) !important;
+    border: 1vh solid var(--box-border) !important;
     background-color: var(--box-bg);
 }
 
@@ -49,7 +53,7 @@ body {
 
 
 .scoreboard {
-    border: 10px solid var(--box-border);
+    border: 1vh solid var(--box-border);
     border-bottom: 0px !important;
     background-color: var(--scoreboard-bg);
     color: var(--secondary-header);
@@ -57,7 +61,7 @@ body {
 
 
 .scoreboard-bottom {
-    border: 10px solid var(--box-border);
+    border: 1vh solid var(--box-border);
     background-color: var(--scoreboard-bg);
     color: var(--secondary-header);
 }
@@ -73,7 +77,7 @@ body {
 }
 
 .upgrade-card {
-    border: 2px solid var(--box-border);
+    border: 1vh solid var(--box-border);
     background-color: #f9f3d0;
     -webkit-text-stroke-width: .2px;
     -webkit-text-stroke-color: var(--header-font);
@@ -82,7 +86,7 @@ body {
 }
 
 .upgrade-col {
-    border: 3px dashed var(--box-border) !important;
+    border: 1vh dashed var(--box-border) !important;
     background-color: var(--box-bg) !important;
 }
 
