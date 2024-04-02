@@ -13,6 +13,7 @@ body {
     background-image: url(assets/bg.jpg);
     background-size: fill;
     background-position: cover;
+    background-size: cover;
     background-repeat: no-repeat;
     user-select: none;
     max-height: 100vh;
